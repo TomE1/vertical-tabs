@@ -122,7 +122,6 @@ h2 {
 
 h3 {
   font-size: 1.953rem;
-  border: var(--borderIndigo);
 }
 
 h4 {
@@ -569,7 +568,8 @@ button.tab-link{
   font-size: 1.4rem;
   background-color: #00ff00;
 }
-button.tab-link active{
+
+button.tab-link.active{
   padding: 1rem;
   width: 100%;
   font-size: 1.4rem;
@@ -584,7 +584,7 @@ button.tab-link active{
 .tab-content{
   display: none;
   animation: slide-right .5s ease 1;
-  border: var(--borderRed);
+  background-color: white;;
 }
 
 .about{
